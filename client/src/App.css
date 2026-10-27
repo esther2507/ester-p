@@ -140,3 +140,24 @@
 .choice-text {
   font-size: 1.8rem;
 }
+
+/* עיצוב כללי למסך המבדק */
+.App, div {
+  direction: rtl;
+  font-family: inherit;
+}
+
+/* עיצוב כפתור המעבר (Next) */
+button {
+  margin-top: 35px;
+  padding: 12px 32px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #4a90d9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+

@@ -11,7 +11,6 @@ const ChoiceOption = ({ content, size, selected, onSelect }) => {
             ) : (
                 <span className="choice-text">{content}</span>
             )}
-
         </div>
     )
 }
