@@ -1,0 +1,142 @@
+.letters-board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+  direction: rtl;
+}
+
+.cell {
+  font-size: 3rem;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.words-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+  direction: rtl;
+}
+
+.question {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.prompt-text {
+  font-size: 2.8rem;
+  margin-bottom: 32px;
+  line-height: 1.4;
+}
+
+.prompt-img {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.choice {
+  border: 4px solid #d6d6d6;
+  border-radius: 16px;
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+  min-width: 220px;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.choice:hover {
+  border-color: #9bbbe0;
+}
+
+.choice.selected {
+  border-color: #4a90d9;
+  background: #eaf3fc;
+}
+
+.choice-img {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.choice-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 8px;
+}
+
+.choice-img.small  { max-width: 80px; }
+.choice-img.medium { max-width: 140px; }
+.choice-img.large  { max-width: 220px; }
+
+.Question {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.Question h2 {
+  font-size: 2.6rem;
+  margin-bottom: 32px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.choice {
+  border: 4px solid #d6d6d6;
+  border-radius: 16px;
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+}
+
+.choice:hover {
+  border-color: #9bbbe0;
+}
+
+.choice.selected {
+  border-color: #4a90d9;
+  background: #eaf3fc;
+}
+
+.choice-img {
+  width: 260px;
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.choice-text {
+  font-size: 1.8rem;
+}
